@@ -1,5 +1,5 @@
 import { galleryData } from "../data/galleryData";
-import { ArrowLeft, ArrowRight, X } from "lucide-react";
+import { ArrowLeft, ArrowRight} from "lucide-react";
 import { useState } from "react";
 
 export const FullGallery = ({
