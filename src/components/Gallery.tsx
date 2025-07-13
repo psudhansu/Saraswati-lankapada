@@ -40,7 +40,7 @@ export const Gallery = ({ onMore }: GalleryProps) => {
             className="fade-in-up rounded overflow-hidden shadow-md hover:shadow-xl transform transition duration-300 hover:scale-105"
           >
             <img
-              src={img.src}
+              src={`${import.meta.env.BASE_URL}${img.src}`}
               alt={img.caption || `Gallery image ${index + 1}`}
               className="w-full h-40 object-cover"
             />

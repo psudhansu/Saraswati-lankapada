@@ -16,7 +16,7 @@ export const Elders = () => {
               className="min-w-[200px] bg-white rounded-xl shadow-md p-4 flex-shrink-0 text-center transition hover:scale-105 duration-300"
             >
               <img
-                src={person.photo}
+                src={`${import.meta.env.BASE_URL}${person.photo}`}
                 alt={person.name}
                 className="w-24 h-24 mx-auto rounded-full object-cover border-4 border-yellow-400 shadow"
               />

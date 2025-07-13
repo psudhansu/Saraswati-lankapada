@@ -29,7 +29,7 @@ export const FullGallery = ({
 
       <div className="relative w-full max-w-xl">
         <img
-          src={images[index].src}
+          src={`${import.meta.env.BASE_URL}${images[index].src}`}
           alt={images[index].caption}
           className="w-full h-80 object-cover rounded-lg shadow-lg"
         />
