@@ -16,7 +16,7 @@ export const FullGallery = ({
     <div className="min-h-screen bg-yellow-50 px-4 py-8 flex flex-col items-center justify-center">
       <button
         onClick={onClose}
-        className="absolute mt-12 top-6 left-4 flex items-center gap-2 px-4 py-2 bg-white text-yellow-700 border border-yellow-400 rounded-full shadow-md hover:bg-yellow-100 transition-all duration-300 text-sm font-semibold"
+        className="flex items-center gap-2 mb-2 px-4 py-2 bg-white text-yellow-700 border border-yellow-400 rounded-2xl shadow-md hover:bg-yellow-100 transition-all duration-300 text-sm font-semibold"
         aria-label="Back to Home"
       >
         <ArrowLeft size={18} />
