@@ -20,7 +20,7 @@ export const About = () => {
       {/* Image Section */}
       <div className="md:w-1/2">
         <img
-          src="../../public/assets/saraswati.png"
+          src={`${import.meta.env.BASE_URL}assets/saraswati.png`}
           alt="Saraswati Puja Decoration"
           className="w-full h-80 max-w-md rounded-lg shadow-xl mx-auto animate-fadeIn"
         />
