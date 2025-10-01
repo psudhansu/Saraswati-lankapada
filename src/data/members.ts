@@ -4,13 +4,9 @@ export type CommitteeMember = {
   photo: string;
 };
 
-export const committeeMembers: CommitteeMember[] = [
-  {
-    name: "Mr. 👥",
-    role: " ",
-    photo: "assets/members/group.jpeg",
-  },
-  {
+
+export const committeeMembers1: CommitteeMember[] = [
+{
     name: "Rushi",
     role: "Member",
     photo: "assets/members/rushi.jpeg",
@@ -45,6 +41,19 @@ export const committeeMembers: CommitteeMember[] = [
     role: "Member",
     photo: "assets/members/minju.jpeg",
   },
+  {
+    name: "Ananda",
+    role: "Member",
+    photo: "assets/members/ananda.jpeg",
+  },
+];
+
+export const committeeMembers: CommitteeMember[] = [
+  // {
+  //   name: "Mr. 👥",
+  //   role: " ",
+  //   photo: "assets/members/group.jpeg",
+  // },
    {
     name: "Kalia",
     role: "Member",
@@ -64,11 +73,6 @@ export const committeeMembers: CommitteeMember[] = [
     name: "Sipun",
     role: "Member",
     photo: "assets/members/sipun.jpeg",
-  },
-  {
-    name: "Ananda",
-    role: "Member",
-    photo: "assets/members/ananda.jpeg",
   },
   {
     name: "Gudu",

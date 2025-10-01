@@ -7,8 +7,31 @@ export const Elders = () => {
         🙏 Respected Elders & Support Members
       </h2>
 
+      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-1">
+        {supportMembers.map((person, idx) => (
+          <div
+            key={idx}
+            className="bg-gradient-to-br from-white to-yellow-50 rounded-lg shadow-lg overflow-hidden border border-yellow-200 transition-transform hover:scale-105 duration-300"
+          >
+            {/* Photo full width (card cover style) */}
+            <img
+              src={person.photo}
+              alt={person.name}
+              className="w-full h-28 object-cover"
+            />
+
+            {/* Content */}
+            <div className="p-2 text-center">
+              <h3 className="font-semibold text-sm text-gray-800 font-[Poppins] truncate">
+                {person.name}
+              </h3>
+            </div>
+          </div>
+        ))}
+      </div>
+
       {/* Seamless auto-scrolling container */}
-      <div className="relative w-full overflow-hidden">
+      {/* <div className="relative w-full overflow-hidden">
         <div className="flex gap-4 w-max animate-marquee">
           {[...supportMembers, ...supportMembers].map((person, idx) => (
             <div
@@ -23,11 +46,10 @@ export const Elders = () => {
               <h3 className="mt-3 font-semibold text-lg font-[Poppins] text-gray-800">
                 {person.name}
               </h3>
-              {/* <p className="text-sm text-gray-600 font-[Poppins]">{person.role}</p> */}
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

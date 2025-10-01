@@ -1,4 +1,5 @@
 import { committeeMembers } from "../data/members";
+import { committeeMembers1 } from "../data/members";
 
 export const Committee = () => {
   return (
@@ -7,7 +8,31 @@ export const Committee = () => {
         👥 Puja Committee Members
       </h2>
 
-      <div className="relative w-full overflow-hidden">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        {committeeMembers1.map((member, idx) => (
+          <div
+            key={idx}
+            className="bg-white rounded-xl shadow-md overflow-hidden flex flex-col items-center text-center transition-transform hover:scale-105 duration-300 hover:shadow-yellow-300"
+          >
+            {/* Photo as square cover */}
+            <img
+              src={member.photo}
+              alt={member.name}
+              className="w-full h-32 object-cover"
+            />
+
+            {/* Info */}
+            <div className="p-2">
+              <h3 className="font-semibold text-sm sm:text-base font-[Poppins] text-gray-800">
+                {member.name}
+              </h3>
+              
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="relative w-full overflow-hidden mt-4">
         {/* Seamless Marquee */}
         <div className="flex gap-4 w-max animate-marquee">
           {[...committeeMembers, ...committeeMembers].map((member, idx) => (
@@ -23,7 +48,9 @@ export const Committee = () => {
               <h3 className="mt-3 font-semibold text-lg font-[Poppins] text-gray-800">
                 {member.name}
               </h3>
-              <p className="text-sm text-gray-600 font-[Poppins]">{member.role}</p>
+              <p className="text-sm text-gray-600 font-[Poppins]">
+                {member.role}
+              </p>
             </div>
           ))}
         </div>

@@ -5,7 +5,7 @@ export const Home = () => {
     const [showSchedule, setShowSchedule] = useState(false);
     return (
         <>
-          <h1 className="text-3xl font-bold text-center mb-4">🙏 ଲଙ୍କାପଡା ସରସ୍ୱତୀ ପୂଜା 🙏</h1>
+          <h2 className="text-3xl font-bold text-center mb-4">  ଲଙ୍କାପଡା ସରସ୍ୱତୀ ପୂଜା  🙏</h2>
         
           {/* Countdown and Schedule */}
               <Countdown pujaDate="2026-01-23" onTenDaysLeft={setShowSchedule} />

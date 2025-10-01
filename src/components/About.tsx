@@ -9,7 +9,7 @@ export const About = () => {
           🎨 About Saraswati Puja
         </h2>
         <p className="text-gray-800 font-[Poppins] leading-relaxed">
-          Saraswati Puja in our village is a grand annual celebration where students,
+          <strong>Saraswati Puja</strong> in our village is a grand annual celebration where students,
           all members, and the whole community come together to worship Goddess Saraswati—
           the deity of wisdom, music, and art. Started in <strong>2020</strong>, it has grown into a
           cultural festival with beautiful decorations, and traditional rituals
