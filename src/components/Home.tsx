@@ -18,7 +18,7 @@ export const Home = () => {
               ) : (
                 <div className="text-center text-gray-600 italic font-[Poppins] mt-4">
                   📌 Event schedule will be available during puja time.
-                </div>
+                </div> 
               )}
    </>
     );

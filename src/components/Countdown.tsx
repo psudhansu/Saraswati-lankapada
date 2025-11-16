@@ -14,7 +14,7 @@ export const Countdown = ({ pujaDate, onTenDaysLeft }: CountdownProps) => {
       const now = new Date();
       const diff = Math.ceil((target.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
       setDaysLeft(diff);
-      onTenDaysLeft(diff <= 45);
+      onTenDaysLeft(diff <= 55);
     };
 
     updateCountdown();

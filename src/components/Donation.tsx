@@ -1,3 +1,5 @@
+import CollectionCard from "./CollectionCard"
+
 export const Donation = () => {
   return (
   <section className="my-10 px-4 py-8 bg-gradient-to-br from-yellow-50 via-white to-yellow-100 rounded-xl shadow-md max-w-xl mx-auto text-center">
@@ -9,7 +11,7 @@ export const Donation = () => {
       Your kind contribution helps us organize Saraswati Puja and cultural programs with devotion and joy.
       Thank you for your blessings and support! 🙏
     </p>
-
+    <CollectionCard />
     <div className="bg-white p-6 rounded-xl shadow-lg">
       <img
         src="/assets/donation/upi-qr.jpg"
