@@ -19,7 +19,7 @@ export const committeeMembers1: CommitteeMember[] = [
   {
     name: "Sudhansu",
     role: "Member",
-    photo: "assets/members/sudhansu.jpeg",
+    photo: "assets/members/sudhansu.png",
   },
    {
     name: "Babu",

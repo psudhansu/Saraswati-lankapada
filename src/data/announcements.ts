@@ -18,7 +18,7 @@ export const announcements: Announcement[] = [
 },
 
   {
-  date: "2026-01-25 - 2026-01-26",
+  date: "2026-01-26 - 2026-01-27",
   title: "Bisarjan & Spiritual Planning(Astamprahari)",
   message: "The Bisarjan ceremony will take place with devotion. A plan is under consideration to organize the long-pending Astamprahari—a continuous 24-hour Nama Sankirtan—for the growth and prosperity of the village. Final confirmation will be shared soon.",
 }

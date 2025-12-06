@@ -25,8 +25,8 @@ export const Donation = () => {
       <div className="mt-4 text-left font-[Poppins]">
         <p className="font-medium text-gray-800 mb-1">OR Donate via Phone/Bank:</p>
         <ul className="text-sm text-gray-700 space-y-1">
-          <li><strong>📛 Account Holder 1:</strong> Sudhansu Nayak</li>
-          <li><strong>📞 GPay/PhonePe:</strong> 7077887317</li>
+          <li><strong>📛 Account Holder 1:</strong> Rushi Prasad Nayak</li>
+          <li><strong>📞 GPay/PhonePe:</strong> 9556294049</li>
           <li><strong>📛 Account Holder 2:</strong> Srinibas Nayak</li>
           <li><strong>📞 GPay/PhonePe:</strong> 8249859021</li>
         </ul>

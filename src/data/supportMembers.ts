@@ -30,7 +30,7 @@ export const supportMembers = [
     photo: "assets/elders/dhanu.jpg",
   },
   {
-    name: "Lipuna",
+    name: "Durga",
     role: "Community Guide",
     photo: "assets/elders/lipuna.jpeg",
   },
@@ -45,7 +45,7 @@ export const supportMembers = [
     photo: "assets/elders/suman.jpeg",
   },
   {
-    name: "Papu Bhai",
+    name: "Biswajit",
     role: "Volunteer & Advisor",
     photo: "assets/elders/papu.jpeg",
   },
@@ -62,7 +62,7 @@ export const supportMembers = [
   {
     name: "Biswajit",
     role: "Volunteer & Advisor",
-    photo: "assets/elders/bindu.jpg",
+    photo: "assets/elders/bindu.jpeg",
   },
   {
     name: "Biswaranjan",
@@ -72,7 +72,7 @@ export const supportMembers = [
   {
     name: "Bhaskar",
     role: "Volunteer & Advisor",
-    photo: "assets/elders/ramesh.jpg",
+    photo: "assets/elders/ramesh.jpeg",
   },
   {
     name: "Bishnu",

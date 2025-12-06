@@ -7,17 +7,17 @@ export const Elders = () => {
         🙏 Respected Elders & Support Members
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-1">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {supportMembers.map((person, idx) => (
           <div
             key={idx}
-            className="bg-gradient-to-br from-white to-yellow-50 rounded-lg shadow-lg overflow-hidden border border-yellow-200 transition-transform hover:scale-105 duration-300"
+            className="bg-white rounded-lg shadow-lg overflow-hidden border border-white transition-transform hover:scale-105 duration-300"
           >
             {/* Photo full width (card cover style) */}
             <img
               src={person.photo}
               alt={person.name}
-              className="w-full h-28 object-cover"
+              className="w-full h-30 object-cover"
             />
 
             {/* Content */}
