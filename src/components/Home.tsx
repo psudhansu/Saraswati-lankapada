@@ -16,8 +16,8 @@ export const Home = () => {
                   <div className="font-[Poppins] space-y-2">
                     <ul className="list-disc pl-5 space-y-1">
                       <li><strong>23 January:</strong> ସରସ୍ୱତୀ ପୂଜା</li>
-                      <li><strong>25 January:</strong> ଭକ୍ତି ବିସର୍ଜନ</li>
-                      <li><strong>26 January:</strong> ଅଷ୍ଟମ ପ୍ରହରୀ ଏବଂ ସଞ୍ଜ ସଂକୀର୍ତ୍ତନ</li>
+                      <li><strong>25 January:</strong> ଭକ୍ତିପୂର୍ଣ୍ଣ ବିସର୍ଜନ</li>
+                      <li><strong>26 January:</strong> ଅଷ୍ଟମ ପ୍ରହରୀ ଏବଂ ସନ୍ଧ୍ୟା ସଂକୀର୍ତ୍ତନ</li>
                       <li><strong>27 January:</strong> ନଗର କୀର୍ତ୍ତନ</li>
                       <li>Evening Alati (all day)</li>
                     </ul>

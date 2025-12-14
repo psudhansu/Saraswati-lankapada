@@ -17,17 +17,17 @@ export const supportMembers = [
   {
     name: "Siba Prasad",
     role: "Volunteer & Advisor",
-    photo: "assets/elders/siba.jpg",
+    photo: "assets/elders/siba.jpeg",
   },
   {
     name: "Gyanendra",
     role: "Founder & Senior Advisor",
-    photo: "assets/elders/tulu.jpg",
+    photo: "assets/elders/gyan.jpeg",
   },
   {
     name: "Niranjan",
     role: "Founder & Senior Advisor",
-    photo: "assets/elders/dhanu.jpg",
+    photo: "assets/elders/niranjan.jpeg",
   },
   {
     name: "Durga",
@@ -37,7 +37,7 @@ export const supportMembers = [
   {
     name: "Happy",
     role: "Cultural Support",
-    photo: "assets/elders/happy.jpg",
+    photo: "assets/elders/happy.jpeg",
   },
   {
     name: "Suman",
@@ -72,22 +72,22 @@ export const supportMembers = [
   {
     name: "Bhaskar",
     role: "Volunteer & Advisor",
-    photo: "assets/elders/ramesh.jpeg",
+    photo: "assets/elders/bhaskar.jpeg",
   },
   {
     name: "Bishnu",
     role: "Founder & Senior Advisor",
-    photo: "/assets/elders/lakshman.jpg",
+    photo: "assets/elders/kalia.jpeg",
   },
   {
     name: "Vicky",
     role: "Community Guide",
-    photo: "/assets/elders/ganesh.jpg",
+    photo: "assets/elders/ganesh.jpg",
   },
   {
     name: "Sikun",
     role: "Cultural Support",
-    photo: "/assets/elders/malati.jpg",
+    photo: "assets/elders/malati.jpg",
   },
   // Add more as needed
 ];
